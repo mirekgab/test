@@ -10,4 +10,8 @@ public class StartController {
     public String hello() {
         return "hello";
     }
+
+    @GetMapping("/api")
+    public String api() { return "api";}
+
 }
