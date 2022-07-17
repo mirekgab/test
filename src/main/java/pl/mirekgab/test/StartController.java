@@ -17,4 +17,6 @@ public class StartController {
     @GetMapping("/endpoint1")
     public String endpoint1() { return "endpoint1";}
 
+    @GetMapping("/endpoint2")
+    public String endpoint2() { return "endpoint2";}
 }
