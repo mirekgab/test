@@ -1,5 +1,6 @@
 package pl.mirekgab.test;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,6 +40,7 @@ class StartControllerTest {
     }
 
     @Test
+    @DisplayName("always fail test")
     void alwaysFail() throws Exception {
         assert false;
     }
