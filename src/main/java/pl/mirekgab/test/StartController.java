@@ -14,4 +14,7 @@ public class StartController {
     @GetMapping("/api")
     public String api() { return "api";}
 
+    @GetMapping("/endpoint1")
+    public String endpoint1() { return "endpoint1";}
+
 }
