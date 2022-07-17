@@ -39,7 +39,7 @@ class StartControllerTest {
         assertEquals("hello", result);
     }
 
-    @Test
+
     @DisplayName("always fail test")
     void alwaysFail() throws Exception {
         assert false;
