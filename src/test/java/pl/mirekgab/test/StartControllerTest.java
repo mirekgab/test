@@ -37,4 +37,9 @@ class StartControllerTest {
         //then
         assertEquals("hello", result);
     }
+
+    @Test
+    void alwaysFail() throws Exception {
+        assert false;
+    }
 }
