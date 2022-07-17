@@ -35,6 +35,6 @@ class StartControllerTest {
                 .getContentAsString();
 
         //then
-        assertEquals("hello world1", result);
+        assertEquals("hello my world", result);
     }
 }
