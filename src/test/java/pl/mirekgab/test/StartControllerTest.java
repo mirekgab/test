@@ -40,6 +40,7 @@ class StartControllerTest {
     }
 
 
+    @Test
     @DisplayName("always fail test")
     void alwaysFail() throws Exception {
         assert false;
